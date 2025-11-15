@@ -79,4 +79,4 @@ The code will automatically use the best model in `wa` to visualize the attentio
   year={2024}
 }
 ```
-Our code is largely borrowed from [TVT](https://github.com/uta-smile/TVT) and [ViT-pytorch](https://github.com/jeonsworld/ViT-pytorch)
+Our code is largely borrowed from [FFTAT](https://github.com/Shawey94/WACV2025-FFTAT) and [ViT-pytorch](https://github.com/jeonsworld/ViT-pytorch)
