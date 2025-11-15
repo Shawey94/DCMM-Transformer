@@ -58,11 +58,11 @@ python Main_wTop5.py --lr 0.00005 --epochs 100 --batch_size 128 --te_batch_size 
 
 ### Citation:
 ```
-@article{yu2024FFTAT,
-  title={Feature Fusion Transferability Aware Transformer for Unsupervised Domain Adaptation},
-  author={Yu, Xiaowei and Huang, Zhe and Zhang, Zao},
+@article{cheng2024DCMM,
+  title={DCMM-Transformer: Degree-Corrected Mixed-Membership Attention for Medical Imaging},
+  author={Cheng, Huimin and Yu, Xiaowei and Wu, Shushan and Fang, Luyang and Cao, Chao and Zhang, Jing and Liu, Tianming and Zhu, Dajiang and Zhong, Wenxuan and Ma, Ping},
   journal={arXiv preprint arXiv:2411.07794},
-  year={2024}
+  year={2025}
 }
 ```
 Our code is largely borrowed from [NoisyNN](https://github.com/Shawey94/NoisyNN) and [ViT-pytorch](https://github.com/jeonsworld/ViT-pytorch)
