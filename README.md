@@ -48,26 +48,12 @@ Download the following models and put them in `checkpoint/`
 
 All commands can be found in `script.txt`. An example:
 ```
-python3 main.py --train_batch_size 16 --dataset office --name wa \
---source_list data/office/webcam_list.txt --target_list data/office/amazon_list.txt \
---test_list data/office/amazon_list.txt --num_classes 31 --model_type ViT-B_16 \
---pretrained_dir checkpoint/ViT-B_16.npz --num_steps 5000 --img_size 256 \
---beta 0.1 --gamma 0.2 --use_im --theta 0.1
+python Main_wTop5.py --lr 0.00005 --epochs 100 --batch_size 128 --te_batch_size 128 --layer 11 --gpu_id 0 --res 224 --patch_size 16 --scale small --datasets INbreast --num_classes 3 --training 1 --inference 0 --strength 0.0 --use_cp 1 --cp_bias_scale 10 --n_clusters 100 --lamda_e 0.1 --lamda_s 0.0 --lamda_d 0.0
+
 ```
 
 <!-- 
-### Attention Map Visualization:
-```
-python3 visualize.py --dataset office --name wa --num_classes 31 --image_path att_visual.txt --img_size 256
-```
-The code will automatically use the best model in `wa` to visualize the attention maps of images in `att_visual.txt`. `att_visual.txt` contains image paths you want to visualize, for example:
-```
-/data/office/domain_adaptation_images/dslr/images/calculator/frame_0001.jpg 5
-/data/office/domain_adaptation_images/dslr/images/calculator/frame_0002.jpg 5
-/data/office/domain_adaptation_images/dslr/images/calculator/frame_0003.jpg 5
-/data/office/domain_adaptation_images/dslr/images/calculator/frame_0004.jpg 5
-/data/office/domain_adaptation_images/dslr/images/calculator/frame_0005.jpg 5
-```
+
  --> 
 
 ### Citation:
@@ -79,4 +65,4 @@ The code will automatically use the best model in `wa` to visualize the attentio
   year={2024}
 }
 ```
-Our code is largely borrowed from [FFTAT](https://github.com/Shawey94/WACV2025-FFTAT) and [ViT-pytorch](https://github.com/jeonsworld/ViT-pytorch)
+Our code is largely borrowed from [NoisyNN](https://github.com/Shawey94/NoisyNN) and [ViT-pytorch](https://github.com/jeonsworld/ViT-pytorch)
