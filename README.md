@@ -61,7 +61,7 @@ python Main_wTop5.py --lr 0.00005 --epochs 100 --batch_size 128 --te_batch_size 
 @article{cheng2024DCMM,
   title={DCMM-Transformer: Degree-Corrected Mixed-Membership Attention for Medical Imaging},
   author={Cheng, Huimin and Yu, Xiaowei and Wu, Shushan and Fang, Luyang and Cao, Chao and Zhang, Jing and Liu, Tianming and Zhu, Dajiang and Zhong, Wenxuan and Ma, Ping},
-  journal={arXiv preprint arXiv:2411.07794},
+  journal={arXiv preprint arXiv:2511.6988035},
   year={2025}
 }
 ```
