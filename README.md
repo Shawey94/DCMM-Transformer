@@ -29,7 +29,7 @@ pip install scikit-learn==0.23.2
 Download the following models and put them in `checkpoint/`
 - ViT-B_16 [(ImageNet-21K)](https://storage.cloud.google.com/vit_models/imagenet21k/ViT-B_16.npz?_ga=2.49067683.-40935391.1637977007)
 - ViT-B_16 [(ImageNet)](https://console.cloud.google.com/storage/browser/_details/vit_models/sam/ViT-B_16.npz;tab=live_object)
-- ViT-S_16 [(ImageNet)] (https://storage.googleapis.com/vit_models/sam/ViT-S_16.npz)
+- ViT-S_16 [(ImageNet)](https://storage.googleapis.com/vit_models/sam/ViT-S_16.npz)
 
 
 <!-- 
