@@ -39,7 +39,7 @@ Download the following models and put them in `checkpoint/`
 ### Datasets:
 
 - [ChestXray](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
-- [SIIM-ACR](https://www.kaggle.com/competitions/siim-acr-pneumothorax-segmentation)
+- [SIIM-ACR]
 - [INbreast](https://pubmed.ncbi.nlm.nih.gov/22078258/)
 - [ADNI](https://adni.loni.usc.edu/)
 - [EyeDisease](https://www.kaggle.com/datasets/gunavenkatdoddi/eye-diseases-classification)
