@@ -4,7 +4,7 @@
 <!--  Add the environment requirements to reproduce the results.  --> 
 
 <p align="left"> 
-<img width="800" src="https://github.com/Shawey94/FFTAT/blob/main/image.png">
+<img width="800" src="https://github.com/Shawey94 DCMM-Degree-Corrected-Mixed-Membership-Attention-for-Medical-Imaging/blob/main/image.png">
 </p>
 
 ### Environment (Python 3.8.12)
