@@ -1,4 +1,4 @@
-# [DCMM-Transformer: Degree-Corrected Mixed-Membership Attention for Medical Imaging](https://arxiv.org/pdf/2411.07794), AAAI 2026
+# [DCMM-Transformer: Degree-Corrected Mixed-Membership Attention for Medical Imaging](https://arxiv.org/pdf/2511.12047), AAAI 2026
 
 ### updates (11/15/2025)
 <!--  Add the environment requirements to reproduce the results.  --> 
