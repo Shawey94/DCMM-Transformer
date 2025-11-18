@@ -48,7 +48,7 @@ Pretrained ViT weights can be downloaded via the links. Timm also provides pretr
 
 All commands can be found in `script.txt`. An example:
 ```
-python Main_wTop5.py --lr 0.00005 --epochs 100 --batch_size 128 --te_batch_size 128 --layer 11 --gpu_id 0 --res 224 --patch_size 16 --scale small --datasets INbreast --num_classes 3 --training 1 --inference 0 --strength 0.0 --use_cp 1 --cp_bias_scale 10 --n_clusters 100 --lamda_e 0.1 --lamda_s 0.0 --lamda_d 0.0
+python Main_wTop5.py --lr 0.00005 --epochs 100 --batch_size 128 --te_batch_size 128 --layer 11 --gpu_id 0 --res 224 --patch_size 16 --scale small --datasets INbreast --num_classes 3 --training 0 --inference 0 --strength 0.0 --use_cp 1 --cp_bias_scale 10 --n_clusters 100 --lamda_e 0.1 --lamda_s 0.0 --lamda_d 0.0
 
 ```
 
